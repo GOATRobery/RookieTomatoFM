@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F444515C242556D000C251DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F444515B242556D000C251DF /* AppDelegate.m */; };
+		F444515F242556D000C251DF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F444515E242556D000C251DF /* SceneDelegate.m */; };
+		F4445162242556D000C251DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4445161242556D000C251DF /* ViewController.m */; };
+		F4445165242556D000C251DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4445163242556D000C251DF /* Main.storyboard */; };
+		F4445168242556D000C251DF /* RookieTomatoFM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4445166242556D000C251DF /* RookieTomatoFM.xcdatamodeld */; };
+		F444516A242556D300C251DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4445169242556D300C251DF /* Assets.xcassets */; };
+		F444516D242556D300C251DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444516B242556D300C251DF /* LaunchScreen.storyboard */; };
+		F4445170242556D300C251DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F444516F242556D300C251DF /* main.m */; };
+		F444517A242556D300C251DF /* RookieTomatoFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4445179242556D300C251DF /* RookieTomatoFMTests.m */; };
+		F4445185242556D300C251DF /* RookieTomatoFMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4445184242556D300C251DF /* RookieTomatoFMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4445176242556D300C251DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F444514F242556D000C251DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4445156242556D000C251DF;
+			remoteInfo = RookieTomatoFM;
+		};
+		F4445181242556D300C251DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F444514F242556D000C251DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4445156242556D000C251DF;
+			remoteInfo = RookieTomatoFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4445157242556D000C251DF /* RookieTomatoFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RookieTomatoFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F444515A242556D000C251DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F444515B242556D000C251DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F444515D242556D000C251DF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F444515E242556D000C251DF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F4445160242556D000C251DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4445161242556D000C251DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4445164242556D000C251DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4445167242556D000C251DF /* RookieTomatoFM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RookieTomatoFM.xcdatamodel; sourceTree = "<group>"; };
+		F4445169242556D300C251DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F444516C242556D300C251DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F444516E242556D300C251DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F444516F242556D300C251DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4445175242556D300C251DF /* RookieTomatoFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RookieTomatoFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4445179242556D300C251DF /* RookieTomatoFMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RookieTomatoFMTests.m; sourceTree = "<group>"; };
+		F444517B242556D300C251DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4445180242556D300C251DF /* RookieTomatoFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RookieTomatoFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4445184242556D300C251DF /* RookieTomatoFMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RookieTomatoFMUITests.m; sourceTree = "<group>"; };
+		F4445186242556D300C251DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4445154242556D000C251DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4445172242556D300C251DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444517D242556D300C251DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F444514E242556D000C251DF = {
+			isa = PBXGroup;
+			children = (
+				F4445159242556D000C251DF /* RookieTomatoFM */,
+				F4445178242556D300C251DF /* RookieTomatoFMTests */,
+				F4445183242556D300C251DF /* RookieTomatoFMUITests */,
+				F4445158242556D000C251DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4445158242556D000C251DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4445157242556D000C251DF /* RookieTomatoFM.app */,
+				F4445175242556D300C251DF /* RookieTomatoFMTests.xctest */,
+				F4445180242556D300C251DF /* RookieTomatoFMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4445159242556D000C251DF /* RookieTomatoFM */ = {
+			isa = PBXGroup;
+			children = (
+				F444515A242556D000C251DF /* AppDelegate.h */,
+				F444515B242556D000C251DF /* AppDelegate.m */,
+				F444515D242556D000C251DF /* SceneDelegate.h */,
+				F444515E242556D000C251DF /* SceneDelegate.m */,
+				F4445160242556D000C251DF /* ViewController.h */,
+				F4445161242556D000C251DF /* ViewController.m */,
+				F4445163242556D000C251DF /* Main.storyboard */,
+				F4445169242556D300C251DF /* Assets.xcassets */,
+				F444516B242556D300C251DF /* LaunchScreen.storyboard */,
+				F444516E242556D300C251DF /* Info.plist */,
+				F444516F242556D300C251DF /* main.m */,
+				F4445166242556D000C251DF /* RookieTomatoFM.xcdatamodeld */,
+			);
+			path = RookieTomatoFM;
+			sourceTree = "<group>";
+		};
+		F4445178242556D300C251DF /* RookieTomatoFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4445179242556D300C251DF /* RookieTomatoFMTests.m */,
+				F444517B242556D300C251DF /* Info.plist */,
+			);
+			path = RookieTomatoFMTests;
+			sourceTree = "<group>";
+		};
+		F4445183242556D300C251DF /* RookieTomatoFMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4445184242556D300C251DF /* RookieTomatoFMUITests.m */,
+				F4445186242556D300C251DF /* Info.plist */,
+			);
+			path = RookieTomatoFMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4445156242556D000C251DF /* RookieTomatoFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4445189242556D300C251DF /* Build configuration list for PBXNativeTarget "RookieTomatoFM" */;
+			buildPhases = (
+				F4445153242556D000C251DF /* Sources */,
+				F4445154242556D000C251DF /* Frameworks */,
+				F4445155242556D000C251DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RookieTomatoFM;
+			productName = RookieTomatoFM;
+			productReference = F4445157242556D000C251DF /* RookieTomatoFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4445174242556D300C251DF /* RookieTomatoFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F444518C242556D300C251DF /* Build configuration list for PBXNativeTarget "RookieTomatoFMTests" */;
+			buildPhases = (
+				F4445171242556D300C251DF /* Sources */,
+				F4445172242556D300C251DF /* Frameworks */,
+				F4445173242556D300C251DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4445177242556D300C251DF /* PBXTargetDependency */,
+			);
+			name = RookieTomatoFMTests;
+			productName = RookieTomatoFMTests;
+			productReference = F4445175242556D300C251DF /* RookieTomatoFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F444517F242556D300C251DF /* RookieTomatoFMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F444518F242556D300C251DF /* Build configuration list for PBXNativeTarget "RookieTomatoFMUITests" */;
+			buildPhases = (
+				F444517C242556D300C251DF /* Sources */,
+				F444517D242556D300C251DF /* Frameworks */,
+				F444517E242556D300C251DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4445182242556D300C251DF /* PBXTargetDependency */,
+			);
+			name = RookieTomatoFMUITests;
+			productName = RookieTomatoFMUITests;
+			productReference = F4445180242556D300C251DF /* RookieTomatoFMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F444514F242556D000C251DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Insight;
+				TargetAttributes = {
+					F4445156242556D000C251DF = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F4445174242556D300C251DF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F4445156242556D000C251DF;
+					};
+					F444517F242556D300C251DF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F4445156242556D000C251DF;
+					};
+				};
+			};
+			buildConfigurationList = F4445152242556D000C251DF /* Build configuration list for PBXProject "RookieTomatoFM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F444514E242556D000C251DF;
+			productRefGroup = F4445158242556D000C251DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4445156242556D000C251DF /* RookieTomatoFM */,
+				F4445174242556D300C251DF /* RookieTomatoFMTests */,
+				F444517F242556D300C251DF /* RookieTomatoFMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4445155242556D000C251DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F444516D242556D300C251DF /* LaunchScreen.storyboard in Resources */,
+				F444516A242556D300C251DF /* Assets.xcassets in Resources */,
+				F4445165242556D000C251DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4445173242556D300C251DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444517E242556D300C251DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4445153242556D000C251DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4445170242556D300C251DF /* main.m in Sources */,
+				F4445162242556D000C251DF /* ViewController.m in Sources */,
+				F444515C242556D000C251DF /* AppDelegate.m in Sources */,
+				F444515F242556D000C251DF /* SceneDelegate.m in Sources */,
+				F4445168242556D000C251DF /* RookieTomatoFM.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4445171242556D300C251DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F444517A242556D300C251DF /* RookieTomatoFMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F444517C242556D300C251DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4445185242556D300C251DF /* RookieTomatoFMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4445177242556D300C251DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4445156242556D000C251DF /* RookieTomatoFM */;
+			targetProxy = F4445176242556D300C251DF /* PBXContainerItemProxy */;
+		};
+		F4445182242556D300C251DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4445156242556D000C251DF /* RookieTomatoFM */;
+			targetProxy = F4445181242556D300C251DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4445163242556D000C251DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4445164242556D000C251DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F444516B242556D300C251DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F444516C242556D300C251DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4445187242556D300C251DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4445188242556D300C251DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F444518A242556D300C251DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RookieTomatoFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Insight.RookieTomatoFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F444518B242556D300C251DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RookieTomatoFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Insight.RookieTomatoFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F444518D242556D300C251DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RookieTomatoFMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Insight.RookieTomatoFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RookieTomatoFM.app/RookieTomatoFM";
+			};
+			name = Debug;
+		};
+		F444518E242556D300C251DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RookieTomatoFMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Insight.RookieTomatoFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RookieTomatoFM.app/RookieTomatoFM";
+			};
+			name = Release;
+		};
+		F4445190242556D300C251DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RookieTomatoFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Insight.RookieTomatoFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RookieTomatoFM;
+			};
+			name = Debug;
+		};
+		F4445191242556D300C251DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RookieTomatoFMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Insight.RookieTomatoFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RookieTomatoFM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4445152242556D000C251DF /* Build configuration list for PBXProject "RookieTomatoFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4445187242556D300C251DF /* Debug */,
+				F4445188242556D300C251DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4445189242556D300C251DF /* Build configuration list for PBXNativeTarget "RookieTomatoFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F444518A242556D300C251DF /* Debug */,
+				F444518B242556D300C251DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F444518C242556D300C251DF /* Build configuration list for PBXNativeTarget "RookieTomatoFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F444518D242556D300C251DF /* Debug */,
+				F444518E242556D300C251DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F444518F242556D300C251DF /* Build configuration list for PBXNativeTarget "RookieTomatoFMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4445190242556D300C251DF /* Debug */,
+				F4445191242556D300C251DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4445166242556D000C251DF /* RookieTomatoFM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4445167242556D000C251DF /* RookieTomatoFM.xcdatamodel */,
+			);
+			currentVersion = F4445167242556D000C251DF /* RookieTomatoFM.xcdatamodel */;
+			path = RookieTomatoFM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F444514F242556D000C251DF /* Project object */;
+}
